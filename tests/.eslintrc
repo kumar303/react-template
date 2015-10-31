@@ -7,7 +7,6 @@
     "strict": [2, "never"],
   },
   "globals": {
-    "assert": false,
     "sinon": false,
   }
 }
