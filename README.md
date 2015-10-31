@@ -6,6 +6,8 @@ This is a starter template for writing
 [Redux](http://redux.js.org/).
 By the time you read this everything will probably be outdated and broken.
 
+[![Build Status](https://travis-ci.org/kumar303/react-template.svg?branch=master)](https://travis-ci.org/kumar303/react-template)
+
 ## Installation
 
 You'll need [Node JS](https://nodejs.org/) for build management:
