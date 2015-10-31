@@ -1,13 +1,21 @@
 # React template
 
-This is a starter template for writing ES2015 React and Redux.
+This is a starter template for writing
+[ES2015](https://babeljs.io/docs/learn-es2015/)
+[React](https://facebook.github.io/react/) and
+[Redux](http://redux.js.org/).
 By the time you read this everything will probably be outdated and broken.
 
 ## Installation
 
-You'll need Node JS for build management:
+You'll need [Node JS](https://nodejs.org/) for build management:
 
     npm install
+
+You need [grunt](http://gruntjs.com/) installed and available on your PATH.
+Install it globally like:
+
+    npm install -g grunt
 
 ## Developing on the app
 
@@ -17,8 +25,8 @@ Install and compile the assets:
 
 Open `public/index.html` in a browser.
 
-You can run this in a shell to continuously rebuild the JS/CSS bundle anytime
-you edit a file:
+You can keep this running in a shell to continuously rebuild the JS/CSS bundle
+anytime you edit a file:
 
     grunt watch-build
 
