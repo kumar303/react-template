@@ -52,7 +52,7 @@
     "webpack-dev-server": "1.10.1"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "node -e \"require('grunt').cli()\" null test"
   },
   "license": "MPL-2.0"
 }
