@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as appActions from 'lib/actions/app-actions'
+import * as appActions from 'lib/actions/app-actions';
 import Error from 'lib/components/error';
 
 
@@ -27,7 +27,8 @@ export class App extends Component {
       <div>
         <h1>Hello from React!</h1>
         <p>
-          <a onClick={() => this.boundAppActions.appError('This is an error')} href="#">
+          <a onClick={() => this.boundAppActions.appError('This is an error')}
+             href="#">
             Would you like to see an error?
           </a>
         </p>

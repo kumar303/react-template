@@ -5,6 +5,6 @@ module.exports = {
     'public/fonts',
   ],
   dist: [
-    'public/dist'
-  ]
+    'public/dist',
+  ],
 };

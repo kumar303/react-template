@@ -12,11 +12,11 @@ module.exports = {
     sourceMap: true,
     includePaths: [
       path.join('public/scss/config/', env_),
-    ]
+    ],
   },
   dev: {
     options: {
-      outputStyle: 'expanded'
+      outputStyle: 'expanded',
     },
     files: {
       'public/dist/app.css': 'public/scss/app.scss',
@@ -24,7 +24,7 @@ module.exports = {
   },
   min: {
     options: {
-      outputStyle: 'compressed'
+      outputStyle: 'compressed',
     },
     files: {
       'public/dist/app.min.css': 'public/scss/app.scss',

@@ -3,7 +3,7 @@ module.exports = {
     files: 'public/scss/**/*.scss',
     tasks: ['sass:dev'],
     options: {
-      debounceDelay: 250
-    }
+      debounceDelay: 250,
+    },
   },
 };
