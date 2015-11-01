@@ -3,7 +3,20 @@ import thunk from 'redux-thunk';
 
 import rootReducer from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
+
+function logger({ getState }) {
+  return next => action => {
+    console.info('redux: dispatching', action);
+    const result = next(action);
+    console.log('redux: state after', getState());
+    return result;
+  };
+}
+
+const createStoreWithMiddleware = applyMiddleware(
+  thunk,
+  logger
+)(createStore);
 
 
 export function createReduxStore() {
