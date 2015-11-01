@@ -27,15 +27,14 @@ export class App extends Component {
       <div>
         <h1>Hello from React!</h1>
         <p>
-          <a onClick={() => this.boundAppActions.appError('This is an error')}
-             href="#">
+          <button
+              onClick={() => this.boundAppActions.appError('This is an error')}>
             Would you like to see an error?
-          </a>
+          </button>
         </p>
         <p>
           Of course you would.
         </p>
-        <button>Example button</button>
       </div>
     );
   }
