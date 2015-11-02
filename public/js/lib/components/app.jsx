@@ -22,6 +22,9 @@ export class App extends Component {
     if (this.props.app.error) {
       return <Error message={this.props.app.error} />;
     }
+    if (this.props.app.status) {
+      return <p>status = {this.props.app.status}</p>;
+    }
 
     return (
       <div>
@@ -33,7 +36,12 @@ export class App extends Component {
           </button>
         </p>
         <p>
-          Of course you would.
+          <button onClick={() => this.boundAppActions.showStatus()}>
+            Maybe try and API request?
+          </button>
+        </p>
+        <p>
+          This just hits a toy Docker API I configured with CORS as an example.
         </p>
       </div>
     );
