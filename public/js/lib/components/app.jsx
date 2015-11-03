@@ -37,7 +37,7 @@ export class App extends Component {
         </p>
         <p>
           <button onClick={() => this.boundAppActions.showStatus()}>
-            Maybe try and API request?
+            Maybe try an API request?
           </button>
         </p>
         <p>
