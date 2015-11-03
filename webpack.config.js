@@ -37,6 +37,7 @@ module.exports = {
     // relies on imports-loader and exports-loader in node_modules
     new webpack.ProvidePlugin({
       'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+      'Promise': 'imports?this=>global!exports?global.fetch!es6-promise',
     }),
   ],
   resolve: {
