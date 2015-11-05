@@ -24,6 +24,8 @@ It comes configured with:
 * [SASS](http://sass-lang.com/), for enhanced CSS. The CSS is compressed and
   bundled. **NOTE**: The SASS files could use some work, there is a lot of cruft
   you'll probably need to delete.
+* [connect-fonts](https://shanetomlinson.com/2013/connect-express-font-middleware-nodejs/),
+  just as an example. Chances are you probably won't want these exact fonts.
 * [eslint](http://eslint.org/), configured for application code and tests.
 * [Grunt](http://gruntjs.com/), for managing everything.
 
