@@ -59,7 +59,7 @@ Run all Javascript tests in a web browser and execute lint checks:
 
     grunt test
 
-For faster tests you can run tests continuously as you edit files:
+For faster tests you can run them continuously as you edit files:
 
     grunt watch-test
 
