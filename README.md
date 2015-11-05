@@ -6,6 +6,24 @@ This is a starter template for writing
 [Redux](http://redux.js.org/).
 By the time you read this everything will probably be outdated and broken.
 
+It comes configured with:
+
+* [ES2015](https://babeljs.io/docs/learn-es2015/) JavaScript, bundled for
+  development (and production) using [Babel 5](http://babeljs.io/) and
+  [webpack](https://webpack.github.io/).
+* [React](http://facebook.github.io/react/), including an example `Error` component.
+* [Redux](https://github.com/rackt/redux), including an example action and
+  reducer for dispatching errors (also with tests).
+* [Karma](http://karma-runner.github.io/), for running tests in a web browser with
+  [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/),
+  and [Sinon](http://sinonjs.org/).
+* [TravisCI](https://travis-ci.org/), configured for running tests in a web browser.
+* [SASS](http://sass-lang.com/), for enhanced CSS. The CSS is compressed and
+  bundled. **NOTE**: The SASS files could use some work, there is a lot of cruft
+  you'll probably need to delete.
+* [eslint](http://eslint.org/), configured for application code and tests.
+* [Grunt](http://gruntjs.com/), for managing everything.
+
 [![Build Status](https://travis-ci.org/kumar303/react-template.svg?branch=master)](https://travis-ci.org/kumar303/react-template)
 
 ## Installation
