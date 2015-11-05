@@ -7,7 +7,6 @@
     "connect-fonts-clearsans": "0.0.1",
     "connect-fonts-firasans": "0.0.4",
     "es6-promise": "2.0.1",
-    "events": "1.0.2",
     "normalize.css": "3.0.3",
     "react": "0.14.1",
     "react-dom": "0.14.1",
