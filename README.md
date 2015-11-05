@@ -11,6 +11,9 @@ It comes configured with:
 * [ES2015](https://babeljs.io/docs/learn-es2015/) JavaScript, bundled for
   development (and production) using [npm](https://www.npmjs.com/),
   [Babel 5](http://babeljs.io/), and [webpack](https://webpack.github.io/).
+* JavaScript polyfills, hooked up via `webpack`:
+  * [es6-promise](https://github.com/jakearchibald/es6-promise)
+  * [whatwg-fetch](https://github.com/github/fetch)
 * [React](http://facebook.github.io/react/), including an example `Error` component.
 * [Redux](https://github.com/rackt/redux), including an example action and
   reducer for dispatching errors (also with tests).
