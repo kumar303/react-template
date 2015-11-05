@@ -9,8 +9,8 @@ By the time you read this everything will probably be outdated and broken.
 It comes configured with:
 
 * [ES2015](https://babeljs.io/docs/learn-es2015/) JavaScript, bundled for
-  development (and production) using [Babel 5](http://babeljs.io/) and
-  [webpack](https://webpack.github.io/).
+  development (and production) using [npm](https://www.npmjs.com/),
+  [Babel 5](http://babeljs.io/), and [webpack](https://webpack.github.io/).
 * [React](http://facebook.github.io/react/), including an example `Error` component.
 * [Redux](https://github.com/rackt/redux), including an example action and
   reducer for dispatching errors (also with tests).
