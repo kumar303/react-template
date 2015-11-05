@@ -26,7 +26,8 @@ It comes configured with:
   there is a lot of cruft you'll probably need to delete.
 * [connect-fonts](https://shanetomlinson.com/2013/connect-express-font-middleware-nodejs/),
   just as an example. Chances are you probably won't want these exact fonts.
-* [eslint](http://eslint.org/), configured for application code and tests.
+* [eslint](http://eslint.org/) and [csslint](https://github.com/CSSLint/csslint),
+  configured for application code and tests.
 * [Grunt](http://gruntjs.com/), for managing everything.
 
 [![Build Status](https://travis-ci.org/kumar303/react-template.svg?branch=master)](https://travis-ci.org/kumar303/react-template)
