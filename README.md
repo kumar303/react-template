@@ -21,9 +21,9 @@ It comes configured with:
   [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/),
   and [Sinon](http://sinonjs.org/).
 * [TravisCI](https://travis-ci.org/), configured for running tests in a web browser.
-* [SASS](http://sass-lang.com/), for enhanced CSS. The CSS is compressed and
-  bundled. **NOTE**: The SASS files could use some work, there is a lot of cruft
-  you'll probably need to delete.
+* [SASS](http://sass-lang.com/), including [normalize.css](https://necolas.github.io/normalize.css/).
+  The CSS is compressed and bundled. **NOTE**: The SASS files could use some work,
+  there is a lot of cruft you'll probably need to delete.
 * [connect-fonts](https://shanetomlinson.com/2013/connect-express-font-middleware-nodejs/),
   just as an example. Chances are you probably won't want these exact fonts.
 * [eslint](http://eslint.org/), configured for application code and tests.
