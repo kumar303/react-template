@@ -17,6 +17,8 @@ It comes configured with:
 * [React](http://facebook.github.io/react/), including an example `Error` component.
 * [Redux](https://github.com/rackt/redux), including an example action and
   reducer for dispatching errors (also with tests).
+* [Redux Dev Tools](https://github.com/gaearon/redux-devtools), bundled with hot
+  module reloading.
 * [Karma](http://karma-runner.github.io/), for running tests in a web browser with
   [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/),
   and [Sinon](http://sinonjs.org/).
@@ -68,11 +70,16 @@ For faster tests you can run them continuously as you edit files:
 
 ## Developing With The Hot Reloader
 
-The hot reloading server will make changes appear instantly on the page as you
-edit React component code. It's pretty hot! Run it like this:
+For rapid development there is a special server you can use.
+This configures hot module reloading which will instantly show changes to your
+app as you save files. It will also activate the
+[redux-devtools](https://github.com/gaearon/redux-devtools)
+panel which lets you step through time as state changes are
+dispatched to your app.
+Run it like this:
 
     grunt serve
 
 Open:
 
-    http://localhost:8080/webpack-dev-server/
+    http://localhost:8080/webpack-dev-server/?debug_session=r
