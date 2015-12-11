@@ -6,6 +6,10 @@ This is a starter template for writing
 [Redux](http://redux.js.org/).
 By the time you read this everything will probably be outdated and broken.
 
+**2015-12-11 UPDATE**: This
+[react + redux boilerplate](https://github.com/erikras/react-redux-universal-hot-example/)
+is a lot more thorough and worth checking out.
+
 It comes configured with:
 
 * [ES2015](https://babeljs.io/docs/learn-es2015/) JavaScript, bundled for
