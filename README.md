@@ -19,6 +19,7 @@ It comes configured with:
   * [es6-promise](https://github.com/jakearchibald/es6-promise)
   * [whatwg-fetch](https://github.com/github/fetch)
 * [React](http://facebook.github.io/react/), including an example `Error` component.
+* [ReactStub](https://github.com/kumar303/react-stub), including a test stubbing example.
 * [Redux](https://github.com/rackt/redux), including an example action and
   reducer for dispatching errors (also with tests).
 * [Redux Dev Tools](https://github.com/gaearon/redux-devtools), bundled with hot

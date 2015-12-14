@@ -3,14 +3,19 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import * as appActions from 'lib/actions/app';
-import Error from 'lib/components/error';
+import DefaultError from 'lib/components/error';
 
 
 export class App extends Component {
 
   static propTypes = {
+    Error: PropTypes.func.isRequired,
     app: PropTypes.object.isRequired,
     dispatch: PropTypes.func.isRequired,
+  }
+
+  static defaultProps = {
+    Error: DefaultError,
   }
 
   constructor(props) {
@@ -19,6 +24,7 @@ export class App extends Component {
   }
 
   render() {
+    let Error = this.props.Error;
     if (this.props.app.error) {
       return <Error message={this.props.app.error} />;
     }
