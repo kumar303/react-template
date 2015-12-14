@@ -23,12 +23,6 @@ module.exports = {
         // See .babelrc for options.
         loaders: ['babel'],
       },
-      {
-        include: /node_modules\/react-stub/,
-        test: /\.js$/,
-        // See .babelrc for options.
-        loaders: ['babel'],
-      },
     ],
   },
   plugins: [
