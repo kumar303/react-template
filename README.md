@@ -1,5 +1,7 @@
 # React template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kumar303/react-template.svg)](https://greenkeeper.io/)
+
 This is a starter template for writing
 [ES2015](https://babeljs.io/docs/learn-es2015/)
 [React](https://facebook.github.io/react/) and
